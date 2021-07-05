@@ -1,0 +1,1 @@
+//* Eksempel med JS vs React

@@ -1,0 +1,1 @@
+const newSection = document.createElement('section');
