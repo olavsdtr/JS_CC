@@ -11,7 +11,7 @@ if (pizza === 'BigOne') {
 let pizzaValg = pizza === 'BigOne' ? 'Nam!' : 'Nei takk';
 console.log(pizzaValg)
 
-// let pizza = 'Dr. Oetker';
+// pizza = 'Dr. Oetker';
 
 switch (pizza) {
 	case 'Grandiosa':

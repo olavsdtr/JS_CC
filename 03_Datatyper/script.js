@@ -1,10 +1,23 @@
-//! Nummer
-let returnNan = 'a' - 2;
-returnNan = 'a' + 2;
+// Endring av variabels verdi
 
-console.log(returnNan);
+let changeType = 45;
+changeType = 'en string';
+changeType = true;
 
-//! Fnutter og string
+// Nummer
+let intNumber = 3;
+let floatNumber = 11.24;
+
+// NaN
+let returnsNaN = 'a' - 2;
+
+// Legg merke til at string + tall blir string
+let returnsString = 'a' + 2; // a2
+
+//BigInt - legg merke til n på slutten av tallet
+const hugeNumber = 54565412215548893212144455566421877998316n;
+
+// Fnutter og string
 let navn = 'Eline'
 
 let singleQuote = 'Hei ' + navn + ', ha en fin dag!';
@@ -15,7 +28,7 @@ console.log(singleQuote);
 console.log(backTick);
 console.log(wrongQuote);
 
-//! Multilinje string
+// Multilinje string
 
 // Funker fint
 let longString = `Handlelista for helgen: Pepsi Max,
@@ -24,24 +37,26 @@ Taco,
 Grændis
 `;
 
+console.log(longString);
+
 // Funker ikke
 // let longWrongString = 'Handlelista for mandag: Bananer,
 // Appelsinjuice,
 // Knekkebrød
 // ';
 
-//! Boolean
+// Boolean
 let isLessThan = 2 < 5;
 console.log(isLessThan);
 
-//! Null
+// Null
 let nothing = null;
 console.log(nothing);
 
-//! Undefined
+// Undefined
 let height;
 console.log(height);
 
-//! Typeof
-console.log(typeof(favorittsmak));
-console.log(typeof(alderIgjen));
+// Typeof
+console.log(typeof(returnsString));
+console.log(typeof(hugeNumber));

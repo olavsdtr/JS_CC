@@ -1,6 +1,14 @@
 const objekt = {
-	nøkkel: verdi,
-	nøkkel1: verdi1
+	nøkkel: 'verdi',
+	nøkkel1: 'verdi1',
+	nested: [{
+		nest1: 'underverdi',
+		id: 1
+	},
+	{
+		nest2: 'underverdi2',
+		id: 2
+	}],
 };
 
 const person = {
@@ -11,4 +19,9 @@ const person = {
 };
 
 // Få tilgang til kun alder
-person.alder
+console.log(objekt);
+console.log(objekt.nested)
+console.log(objekt.nested[1].id);
+
+console.log(person);
+console.log(person.alder);
