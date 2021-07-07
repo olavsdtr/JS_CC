@@ -1,0 +1,23 @@
+body {
+    background-color: cadetblue;
+    margin: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: cornflowerblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+p {
+    background-color: ivory;
+    margin: 20px;
+    padding: 20px;
+}

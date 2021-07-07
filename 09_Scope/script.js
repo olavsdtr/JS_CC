@@ -1,17 +1,26 @@
+//* GLOBAL SCOPE
 const isStudent = true;
 
 const studentCheck = () => {
-	// isStudent kan brukes her
+	//! isStudent kan brukes her
+	console.log('Global scope inni', isStudent)
 }
 
-// isStudent kan brukes her
+studentCheck();
+
+//! isStudent kan brukes her
+console.log('Global scope utenfor', isStudent);
 
 
+//* BLOCK SCOPE
+const teacherCheck = () => {
+	const isTeacher = false;
 
-const studentCheck = () => {
-	const isStudent = true;
-
-	// isStudent kan brukes her
+	//! isTeacher kan brukes her
+	console.log('Block scope', isTeacher);
 }
 
-// isStudent kan ikke brukes her
+teacherCheck();
+
+//! isTeacher kan ikke brukes her
+// console.log(isTeacher);
