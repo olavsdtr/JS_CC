@@ -10,7 +10,7 @@ let floatNumber = 11.24;
 
 //* NaN
 let returnsNaN = 'a' - 2;
-// console.log(returnsNaN);
+console.log(returnsNaN);
 
 // Legg merke til at string + tall blir string
 let returnsString = 'a' + 2; // a2
@@ -40,28 +40,28 @@ Taco,
 Grændis
 `;
 
-// console.log(longString);
+console.log(longString);
 
 //* Funker ikke
-let longWrongString = 'Handlelista for mandag: 
-Bananer,
-Appelsinjuice,
-Knekkebrød';
+// let longWrongString = 'Handlelista for mandag: 
+// Bananer,
+// Appelsinjuice,
+// Knekkebrød';
 
 // console.log(longWrongString);
 
 //* Boolean
 let isLessThan = 2 < 5;
-// console.log(isLessThan);
+console.log(isLessThan);
 
 //* Null
 let nothing = null;
-// console.log(nothing);
+console.log(nothing);
 
 //* Undefined
 let height;
-// console.log(height);
+console.log(height);
 
 //* Typeof
-// console.log(typeof(returnsString));
-// console.log(typeof(hugeNumber));
+console.log(typeof(returnsString));
+console.log(typeof(hugeNumber));

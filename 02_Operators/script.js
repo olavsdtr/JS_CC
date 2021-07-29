@@ -1,4 +1,4 @@
-// MATTE
+//* MATTE
 console.log(1 + 2);
 
 // String. Dette gjelder kun for +
@@ -15,7 +15,7 @@ console.log(9 % 4);
 // 2^3, 2 opphøyd i 3
 console.log(2 ** 3);
 
-// MINSKE/ØKE
+//* MINSKE/ØKE
 let number = 3;
 
 console.log((number += 3)); // number er nå 6 (number = number + 3)
@@ -27,13 +27,14 @@ console.log((number *= 2)); // number er nå 12 (number = number * 6)
 number++; // 12 Bruker verdien før det økes
 number--; // 12 Bruker verdien før det minskes
 
-// SAMMENLIGNING
+//* SAMMENLIGNING
 5 < 4; // False, 5 er ikke mindre enn 4
 3 > 2; // True, 3 er større enn 2
 
 9 <= 3; // False, 9 er ikke mindre eller lik 3
 6 >= 6; // True, 6 er større eller lik 6
 
+//* LOGIKK
 8 == 7; // False, 8 er ikke lik 7
 8 != 7; // True, 8 er ikke lik 7
 
@@ -48,7 +49,6 @@ number--; // 12 Bruker verdien før det minskes
 0 == false; // True
 0 === false; // False, er ikke samme datatype
 
-// LOGIKK
 let klokke = 19;
 let dag = 'mandag';
 
@@ -58,7 +58,7 @@ if (klokke < 18 || dag === 'mandag') {
 }
 
 // Hvis klokke er lik 18 OG dag er lik mandag, så er det sant
-if (klokke === 18 && dag === 'mandag') {
+if (klokke === 19 && dag === 'mandag') {
   console.log('Pasta bolognese serveres nå!');
 }
 

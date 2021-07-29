@@ -9,7 +9,7 @@ if (pizza === 'BigOne') {
 let pizzaValg = pizza === 'BigOne' ? 'Nam!' : 'Nei takk';
 console.log(pizzaValg)
 
-// pizza = 'Peppes';
+pizza = 'Peppes';
 
 switch (pizza) {
 	case 'Grandiosa':

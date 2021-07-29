@@ -1,29 +1,29 @@
 //* VARIABLER
 let alder = 102;
 
-// console.log(alder);
+console.log(alder);
 
 alder = 29;
 
-// console.log(alder);
+console.log(alder);
 
 //* LET
 let bosted = 'Oslo';
 
 alder = bosted;
 
-// console.log(alder);
+console.log(alder);
 
 //* GJENTA VARIABEL
 let favorittsmak = 'sjokolade';
-// console.log(favorittsmak);
+console.log(favorittsmak);
 
-// let favorittsmak = 'jordbær';
-// console.log(favorittsmak);
+favorittsmak = 'jordbær';
+console.log(favorittsmak);
 
 //* CONST
 const alderIgjen = 102;
-// console.log(alderIgjen);
+console.log(alderIgjen);
 
 // alderIgjen = 29;
 
