@@ -2,8 +2,6 @@ let pizza = 'Grandiosa';
 
 if (pizza === 'BigOne') {
     console.log('Nam!')
-} else if (pizza === 'Grandiosa') {
-    console.log('Mmm')
 } else {
     console.log('Jaja, blir pasta da')
 }
@@ -11,7 +9,7 @@ if (pizza === 'BigOne') {
 let pizzaValg = pizza === 'BigOne' ? 'Nam!' : 'Nei takk';
 console.log(pizzaValg)
 
-// pizza = 'Dr. Oetker';
+// pizza = 'Peppes';
 
 switch (pizza) {
 	case 'Grandiosa':

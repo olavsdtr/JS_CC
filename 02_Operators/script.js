@@ -1,30 +1,25 @@
 // MATTE
 console.log(1 + 2);
 
-console.log('4' + 9); // String. Dette gjelder kun for +
-console.log('4' - 9); // Ser på begge som tall
+// String. Dette gjelder kun for +
+console.log('4' + 9);
+// Ser på begge som tall
+console.log('4' - 9);
 
 console.log(5 - 4);
 console.log(3 * 3);
 console.log(15 / 5);
 
-console.log(9 % 4); // Gir rest, 8 delt på 4 blir heltall, gir 1 i rest
-console.log(2 ** 3); // 2^3, 2 opphøyd i 3
-
-
-console.log('1' != 1);
-console.log('1' !== 1);
-
-let n = 3;
-
-console.log(n += 6);
-console.log(n += 6);
+// Gir rest, 8 delt på 4 blir heltall, gir 1 i rest
+console.log(9 % 4);
+// 2^3, 2 opphøyd i 3
+console.log(2 ** 3);
 
 // MINSKE/ØKE
 let number = 3;
 
-n += 3; // number er nå 6 (number = number + 3)
-n *= 2; // number er nå 12 (number = number * 6)
+console.log((number += 3)); // number er nå 6 (number = number + 3)
+console.log((number *= 2)); // number er nå 12 (number = number * 6)
 
 ++number; // 13 Øker før verdien skrives ut
 --number; // 12 Minsker før verdien skrives ut
@@ -54,18 +49,17 @@ number--; // 12 Bruker verdien før det minskes
 0 === false; // False, er ikke samme datatype
 
 // LOGIKK
-let klokke = 18;
-
-// Hvis klokke er mindre enn 18 ELLER over 18, så er det sant
-if(klokke < 18 || klokke > 18) {
-	console.log('Middag!');
-}
-
+let klokke = 19;
 let dag = 'mandag';
 
+// Hvis klokke er mindre enn 18 ELLER over 18, så er det sant
+if (klokke < 18 || dag === 'mandag') {
+  console.log('Middag!');
+}
+
 // Hvis klokke er lik 18 OG dag er lik mandag, så er det sant
-if(klokke === 18 && dag === 'mandag') {
-	console.log('Pasta bolognese serveres nå!'); 
+if (klokke === 18 && dag === 'mandag') {
+  console.log('Pasta bolognese serveres nå!');
 }
 
 let tirsdag = true;

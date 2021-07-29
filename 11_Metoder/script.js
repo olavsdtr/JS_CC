@@ -1,9 +1,9 @@
-// const newSection = document.createElement('section');
+const newSection = document.createElement('section');
 
-// let title = document.getElementById('page-title');
+let title = document.getElementById('page-title');
 let headings1 = document.getElementsByTagName('button');
 let saveButton = document.getElementsByClassName('btn-save');
-// console.log(saveBtn);
+console.log(saveButton);
 
 // HTML tag
 let firstHeading = document.querySelector('h1'); 
@@ -35,7 +35,7 @@ const aboutUsSection = document.querySelector('#about-us');
 
 // Putter heading inn i section
 aboutUsSection.appendChild(aboutHeading);
-// aboutUsSection.removeChild(aboutHeading);
+aboutUsSection.removeChild(aboutHeading);
 
 let big = 'En string mED storE OG små Bokstaver'.toUpperCase();
 // EN STRING MED STORE OG SMÅ BOKSTAVER

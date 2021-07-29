@@ -9,7 +9,7 @@ console.log('første element:', datatypeArray[0]);
 console.log('length:', datatypeArray.length);
 
 console.log('pop:', datatypeArray.pop()); // Fjerner siste element
-// console.log(datatypeArray);
+console.log(datatypeArray);
 
 const liste = [56, 26, 43, 72, 61, 3, 19];
 
@@ -19,12 +19,8 @@ const filtrertArray = liste.filter(element => {
 	return element < 57;
 });
 
-console.log('filtrert array:', filtrertArray);
+console.log('filtrert array:', filtrertArray)
 
+liste.forEach(x => console.log(2 * x));
 
-liste.forEach(element => 2 * element);
-console.log('forEach:', liste);
-
-
-const nyListe = liste.map(element => 2 * element);
-console.log('map:', nyListe);
+console.log(liste.map(el => 2 * el));

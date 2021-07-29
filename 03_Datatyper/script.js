@@ -1,62 +1,67 @@
-// Endring av variabels verdi
+//* Endring av variabels verdi
 
 let changeType = 45;
 changeType = 'en string';
 changeType = true;
 
-// Nummer
+//* Nummer
 let intNumber = 3;
 let floatNumber = 11.24;
 
-// NaN
+//* NaN
 let returnsNaN = 'a' - 2;
+// console.log(returnsNaN);
 
 // Legg merke til at string + tall blir string
 let returnsString = 'a' + 2; // a2
 
-//BigInt - legg merke til n på slutten av tallet
+// BigInt - legg merke til n på slutten av tallet
 const hugeNumber = 54565412215548893212144455566421877998316n;
 
-// Fnutter og string
+//* Fnutter og string
 let navn = 'Eline'
 
 let singleQuote = 'Hei ' + navn + ', ha en fin dag!';
+let doubleQuote = "Hei " + navn + ", ha en fin dag!";
 let backTick = `Hei ${navn}, ha en fin dag!`;
 let wrongQuote = 'Hei ${navn}, ha en fin dag!';
 
 console.log(singleQuote);
+console.log(doubleQuote);
 console.log(backTick);
 console.log(wrongQuote);
 
-// Multilinje string
+//* Multilinje string
 
-// Funker fint
+//* Funker fint
 let longString = `Handlelista for helgen: Pepsi Max,
 Potetgull,
-Taco,
+Taco, 
 Grændis
 `;
 
-console.log(longString);
+// console.log(longString);
 
-// Funker ikke
-// let longWrongString = 'Handlelista for mandag: Bananer,
-// Appelsinjuice,
-// Knekkebrød
-// ';
+//* Funker ikke
+let longWrongString = 'Handlelista for mandag: 
+Bananer,
+Appelsinjuice,
+Knekkebrød';
 
-// Boolean
+// console.log(longWrongString);
+
+//* Boolean
 let isLessThan = 2 < 5;
-console.log(isLessThan);
+// console.log(isLessThan);
 
-// Null
+//* Null
 let nothing = null;
-console.log(nothing);
+// console.log(nothing);
 
-// Undefined
+//* Undefined
 let height;
-console.log(height);
+// console.log(height);
 
-// Typeof
-console.log(typeof(returnsString));
-console.log(typeof(hugeNumber));
+//* Typeof
+// console.log(typeof(returnsString));
+// console.log(typeof(hugeNumber));

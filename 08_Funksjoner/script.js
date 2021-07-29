@@ -15,7 +15,9 @@ const multiplication = number3 => number3 + 2;
 console.log(multiplication(3));
 
 // // Gamle måten
-// function multiplication2(number4) {return number4 + 2;};
+// function multiplication2(number4) {
+// 	return number4 + 2;
+// };
 
 const aFunction = () => {
 	let minus = 3 - 2;

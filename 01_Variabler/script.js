@@ -1,39 +1,40 @@
-// VARIABLER
+//* VARIABLER
 let alder = 102;
 
-console.log("Alder", alder);
+// console.log(alder);
 
 alder = 29;
 
-console.log("Ny alder", alder);
+// console.log(alder);
 
-// LET
+//* LET
 let bosted = 'Oslo';
 
-// alder = bosted;
+alder = bosted;
 
-console.log("Bosted", bosted);
+// console.log(alder);
 
-// GJENTA VARIABEL
+//* GJENTA VARIABEL
 let favorittsmak = 'sjokolade';
-console.log(favorittsmak);
-// let favorittsmak = 'jordbær';
-// favorittsmak = 'jordbær';
+// console.log(favorittsmak);
 
-// CONST
+// let favorittsmak = 'jordbær';
+// console.log(favorittsmak);
+
+//* CONST
 const alderIgjen = 102;
-console.log(alderIgjen);
+// console.log(alderIgjen);
 
 // alderIgjen = 29;
 
+//* NAVNGIVING
+//? IKKE OK
 
-// NAVNGIVING
-// IKKE OK
 // let 67birthday;
 // let not-ok;
 
-// OK
-let birthday67;
+//? OK
+let birth5day67;
 let totally_fine;
 
 let avariablename = 'Vanskelig å lese';
