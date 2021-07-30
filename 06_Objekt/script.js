@@ -30,5 +30,5 @@ console.log(person);
 console.log(person.alder);
 
 console.log(objekt);
-console.log(objekt.nested);
+console.log(objekt.bosted);
 console.log(objekt.bosted[1].adresse);
